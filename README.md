@@ -26,14 +26,14 @@ With more time, a specific purpose statement, and a client's goal in mind, analy
 
 ## Extract, Transform, & Loud Pipeline
 
--> Data ETL 
-   -> main.py (run python main.py --yaml 'config.yaml' --demo ON)
-      -> config.yaml
-      -> data_extraction.py
-      -> data_transformation.py
-      -> manage_db.py
-   -> requirements.txt
-   -> Data ("on prem" data warehouse")
+- Data ETL 
+  - main.py (run python main.py --yaml 'config.yaml' --demo ON)
+    - config.yaml
+    - data_extraction.py
+    - data_transformation.py
+    - manage_db.py
+  - requirements.txt
+  - Data ("on prem" data warehouse")
    
 A fully automated data pipeline was built using sqlite3 as the database. This was chosen to increase the reproducibility of this project and simpleness of navigating sqlite3. The data is not nearly large enough to create any problems or efficiency issues for a considerable amount of the pipelines life. But if it were to grow and be used in production it would be best to eventually transfer the data to a cloud based database and the raw files that are saved to a bucketed file warehouse, such as s3, so that a collaborative environment is created to give many people access to the cleaned data. 
 
