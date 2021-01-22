@@ -1,0 +1,4 @@
+kaggle==1.5.10
+pandas==1.0.1
+PyYAML==5.4.1
+schedule==0.6.0
