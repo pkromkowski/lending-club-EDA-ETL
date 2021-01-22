@@ -12,7 +12,7 @@ LendingClub was an American peer-to-peer lending company, headquartered in San F
    - Data_Clean.ipynb (Data Cleaning)
    - Data_EDA.ipynb (Data Analysis)
 
-When data has too many features it can become hard to analyze and get a general understand. Trends are unrecognizable and the daunting task of figuring out what lies between the rows can become overwhelming. Further down the process, this can negatively affect the way our model develops because it is too overwhelmed. This part of the repo aimed to reduce the feature space of the data by identifying the top 20 most helpful features. 
+When data has too many features it can become hard to analyze and get a general understanding. Trends are unrecognizable and the daunting task of figuring out what lies between the rows can become overwhelming. Further down the process, this could also negatively affect the way our model develops. This part of the repo aimed to reduce the feature space of the data by identifying the top 20 most helpful features. 
 
 During cleaning, steps were taken to fix the irregularities without making any assuptions about what the clean data should be used for. At the same time, cleaning focused on formatting all of the features to the best possible representation of their data. This mainly involved changing the data type of columns.
 
